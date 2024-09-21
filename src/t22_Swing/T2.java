@@ -12,13 +12,13 @@ import java.util.Random;
 import java.awt.event.ActionEvent;
 
 @SuppressWarnings("serial")
-public class Test2 extends JFrame{
+public class T2 extends JFrame{
 	JPanel pn1, pn2, pn3;
 	JButton btn1, btn2, btn3, btn4, btn5, btnExit, btnRand;
 	JLabel lblTitle, lbl1, lbl2, lbl3, lbl4, lbl5, lbl6, lbl7, lbl8, lbl10, lbl11, lbl12, lbl13;
 	int[] cnt  = new int[4];
 	
-	public Test2() {
+	public T2() {
 		setTitle("연습하기");
 		setSize(800,600);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -54,12 +54,12 @@ public class Test2 extends JFrame{
 		pn2.setLayout(null);
 		
 		lbl1 = new JLabel("");
-		lbl1.setIcon(new ImageIcon(Test2.class.getResource("/t22_Swing/images/0.jpg")));
+		lbl1.setIcon(new ImageIcon(T2.class.getResource("/t22_Swing/images/0.jpg")));
 		lbl1.setBounds(36, 10, 138, 251);
 		pn2.add(lbl1);
 		
 		lbl2 = new JLabel("");
-		lbl2.setIcon(new ImageIcon(Test2.class.getResource("/t22_Swing/images/1.jpg")));
+		lbl2.setIcon(new ImageIcon(T2.class.getResource("/t22_Swing/images/1.jpg")));
 		lbl2.setBounds(230, 10, 138, 251);
 		pn2.add(lbl2);
 		
@@ -245,6 +245,6 @@ public class Test2 extends JFrame{
 	}
 	
 	public static void main(String[] args) {
-		new Test2();
+		new T2();
 	}
 }

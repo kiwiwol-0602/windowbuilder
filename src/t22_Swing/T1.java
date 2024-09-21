@@ -14,12 +14,12 @@ import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 
 @SuppressWarnings("serial")
-public class Test1 extends JFrame {
+public class T1 extends JFrame {
 
 	private JPanel contentPane;
 
 
-	public Test1() {
+	public T1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//setBounds(100, 100, 700, 500);
 		setSize(800,600);     
@@ -64,6 +64,6 @@ public class Test1 extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new Test1();
+		new T1();
 	}
 }
